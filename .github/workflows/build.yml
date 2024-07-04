@@ -12,11 +12,9 @@ jobs:
     strategy:
         matrix:
           flavor:
-            - desktop
             - server
           suite:
             - jammy
-            - noble
     steps:
       - name: Get more disk space
         uses: jlumbroso/free-disk-space@main
